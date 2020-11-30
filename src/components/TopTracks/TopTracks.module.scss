@@ -1,0 +1,42 @@
+.topTracks__title {
+  text-align: center;
+  font-size: 42px;
+  padding: 20px;
+}
+.topTracksContainer {
+  width: 700px;
+  margin: 0 auto;
+  border: 1px solid #dfe1ea;
+}
+.topTracks {
+  display: flex;
+  border-bottom: 1px solid #dfe1ea;
+  align-items: center;
+}
+.topTracks:last-child {
+  border-bottom: none;
+}
+.topTracks__number {
+  font-size: 32px;
+  width: 100px;
+  text-align: center;
+}
+.topTracks__info {
+  flex-grow: 1;
+}
+.topTracks__infoSongName {
+  font-size: 16px;
+}
+.topTracks__infoArtistName {
+  text-decoration: none;
+  color: #8086a0;
+  font-size: 14px;
+}
+.topTracks__infoLinkPicture {
+  height: 15px;
+  padding-top: 10px;
+}
+.topTracks__Image {
+  height: 120px;
+  align-items: center;
+}

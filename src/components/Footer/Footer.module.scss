@@ -1,0 +1,12 @@
+.footer {
+  margin-top: 50px;
+  display: flex;
+  color: white;
+  justify-content: center;
+  background: linear-gradient(135deg, #344072 0%, #1e2031 61%, #1e2031 100%);
+}
+.footer__list {
+  list-style-type: none;
+  line-height: 3;
+  padding: 50px 100px;
+}

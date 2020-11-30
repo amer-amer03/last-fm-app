@@ -1,0 +1,27 @@
+.searchResults {
+  width: 800px;
+  margin: 0 auto;
+}
+.searchResults__title {
+  padding: 10px 0px;
+}
+.searchResults__item {
+  display: flex;
+  padding: 10px 0px;
+  align-items: center;
+}
+
+.searchResults__container::after {
+  content: "";
+  display: block;
+  border-bottom: 1px solid #dfe1ea;
+}
+.searchResults__image {
+  margin: 0px 10px;
+}
+.searchResults__song {
+  width: 400px;
+}
+.searchResults__artist {
+  color: #8086a0;
+}

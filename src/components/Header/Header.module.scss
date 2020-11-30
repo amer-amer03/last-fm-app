@@ -1,0 +1,23 @@
+.header {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  align-items: center;
+}
+.header__title {
+  font-size: 32px;
+  font-weight: 700;
+  text-decoration: none;
+  color: white;
+}
+.header__nav {
+  display: flex;
+  flex-grow: 1;
+  color: #76badf;
+}
+.header__navItem {
+  list-style-type: none;
+  padding: 0px 20px;
+}
